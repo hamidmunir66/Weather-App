@@ -12,28 +12,29 @@
 </head>
 
 <body class="bg-gray-900">
-    <section class="w-[470px] m-auto mt-20 p-2 bg-blue-300 text-black border  rounded-[10px]">
+    <section class="w-[470px] m-auto mt-8 p-2 bg-blue-300 text-black border  rounded-[10px]">
         <div class="input ">
-            <input type="text" placeholder="Enter City Name"
+            <input type="text" id="search" placeholder="Enter City Name"
                 class="border border-blue-800 rounded-[6px] w-4/5 text-2xl ">
-            <button class="cursor-pointer font-bold text-2xl p-2"><i class="fa-brands fa-searchengin"></i></button>
+            <button id="btn" class="cursor-pointer font-bold text-2xl p-2"><i class="fa-brands fa-searchengin"></i></button>
         </div>
         <div class="weather w-4/5 ">
-            <img class="object-cover w-72 h-72 m-auto" src="/images/sun.svg" alt="">
-            <h1 class="ml-36 font-semibold text-lg">36°C°F</h1>
-            <h2 class="ml-36 font-semibold text-lg ">Lahore</h2>
+            <img class="object-cover w-72 h-72 m-auto" src="/images/sun.svg" id="main-image" alt="">
+            <h1 class="ml-36 font-semibold text-lg" id="temperature">36°C</h1>
+            <h2 class="ml-36 font-semibold text-lg " id="city-name">Lahore</h2>
         </div>
         <div class="details flex mt-8">
             <div class="humidity flex ">
-                <h1 class="font-semibold text-lg mt-14" >48%</h1>
+                <h1 class="font-semibold text-lg mt-14" id="humid"  >48%</h1>
                 <img class="w-44 h-44 object-cover mr-2" src="/images/humidity.png" alt="">
             </div>
             <div class="wind flex">
-                <h1 class="font-semibold text-lg mt-14">5km/h</h1>
+                <h1 class="font-semibold text-lg mt-14" id="wind">5km/h</h1>
                 <img class="w-44 h-44 object-cover" src="/images/wind.jpg" alt="">
             </div>
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 
 </html>
