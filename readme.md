@@ -1,0 +1,1 @@
+This is a website of fetching api and showing weather update dynamically , help you to learn Dom , fetch api , promises , and moreever Tailwind css
