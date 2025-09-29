@@ -1,12 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-    
+
+<body class="bg-gray-900">
+    <section class="w-[470px] m-auto mt-20 p-2 bg-blue-300 text-black border  rounded-[10px]">
+        <div class="input ">
+            <input type="text" placeholder="Enter City Name"
+                class="border border-blue-800 rounded-[6px] w-4/5 text-2xl ">
+            <button class="cursor-pointer font-bold text-2xl p-2"><i class="fa-brands fa-searchengin"></i></button>
+        </div>
+        <div class="weather w-4/5 ">
+            <img class="object-cover w-72 h-72 m-auto" src="/images/sun.svg" alt="">
+            <h1 class="ml-36 font-semibold text-lg">36°C°F</h1>
+            <h2 class="ml-36 font-semibold text-lg ">Lahore</h2>
+        </div>
+        <div class="details flex mt-8">
+            <div class="humidity flex ">
+                <h1 class="font-semibold text-lg mt-14" >48%</h1>
+                <img class="w-44 h-44 object-cover mr-2" src="/images/humidity.png" alt="">
+            </div>
+            <div class="wind flex">
+                <h1 class="font-semibold text-lg mt-14">5km/h</h1>
+                <img class="w-44 h-44 object-cover" src="/images/wind.jpg" alt="">
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
